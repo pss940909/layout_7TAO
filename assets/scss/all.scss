@@ -2,7 +2,12 @@
 
 // 客製化變數
 @import "./utils/variables";
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/mixins";
 @import "./utils/utilities";
+
+// helpers
+@import "./helpers/font";
 
 // layout
 @import "./layout/header.scss";
