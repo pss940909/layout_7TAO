@@ -1,8 +1,31 @@
 .navbar {
-  img {
-    width: 53px;
+  .navber-leftside {
+    height: 40px;
   }
+
+  h1 img {
+    width: 40px;
+  }
+
   .input-group {
-    width: 335px;
+    width: 207px;
+  }
+
+  .navbar-toggler {
+    border-radius: 4px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .navber-leftside {
+      height: 55px;
+    }
+
+    h1 img {
+      width: 53px;
+    }
+
+    .input-group {
+      width: 335px;
+    }
   }
 }

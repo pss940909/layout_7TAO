@@ -1,24 +1,38 @@
-<nav class="navbar navbar-expand-lg">
-  <div class="container">
-    <h1>
-      <a class="navbar-brand d-flex align-items-center" href="#">
-        <img
-          src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/logo.png?raw=true"
-          alt="main logo"
-        />
-        <p class="text-nowrap fs-3">7TAO</p>
-        <span class="text-nowrap fs-6 noto-serif-tc fw-bold"
-          >活動訂票網</span
-        ></a
+<nav
+  class="navbar navbar-expand-lg border-primary border-bottom py-3 border-3 py-md-6"
+>
+  <div class="container justify-content-between">
+    <div class="d-flex navber-leftside">
+      <h1 class="d-flex align-items-center me-6 me-md-4">
+        <a class="navbar-brand me-0" href="index.html">
+          <img
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/logo.png?raw=true"
+            alt="&TAO logo"
+          />
+        </a>
+      </h1>
+      <a
+        href="index.html"
+        class="d-md-flex text-nowrap align-items-center d-none me-12"
       >
-    </h1>
-    <div class="input-group">
-      <input type="text" class="form-control" placeholder="探索活動" />
-      <span class="input-group-text bg-primary" id="basic-addon2"
-        ><i class="icofont-search-1 text-secondary"></i
-      ></span>
+        <p class="fs-3 me-1">7TAO</p>
+        <span class="fs-6">活動訂票網</span>
+      </a>
+      <div class="input-group">
+        <input
+          type="text"
+          class="form-control border-primary border border-2 py-2 py-md-4 px-3 px-md-6"
+          placeholder="探索活動"
+        />
+        <span
+          class="input-group-text d-flex align-items-center justify-cotent-center p-3 p-md-4 border border-2 border-primary bg-primary"
+        >
+          <i class="icofont-search-1 text-secondary"></i>
+        </span>
+      </div>
     </div>
 
+    <!-- 折疊選單 -->
     <button
       class="navbar-toggler"
       type="button"
@@ -30,17 +44,21 @@
     >
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <!-- 左側選單 -->
+    <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link text-primary" aria-current="page" href="#"
-            ><i class="icofont-ui-file"></i>REGISTER</a
+        <li class="nav-item me-6">
+          <a
+            class="nav-link text-primary px-4 pt-6 pb-4 p-lg-0"
+            aria-current="page"
+            href="#"
+            ><i class="icofont-ui-file me-1"></i>REGISTER</a
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link text-primary" href="#">
-            <i class="icofont-user"></i>LOGIN
-          </a>
+          <a class="nav-link text-primary px-4 pt-4 p-lg-0" href="#">
+            <i class="icofont-user me-1"></i>LOGIN</a
+          >
         </li>
       </ul>
     </div>
