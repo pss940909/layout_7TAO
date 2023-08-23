@@ -1,0 +1,21 @@
+.category {
+  img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .cate-item {
+    height: 112px;
+  }
+
+  @media screen and (min-width: 768px) {
+    img {
+      width: 80px;
+      height: 80px;
+    }
+
+    .cate-item {
+      height: 196px;
+    }
+  }
+}

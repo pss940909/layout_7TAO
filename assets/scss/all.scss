@@ -6,6 +6,9 @@
 @import "../../node_modules/bootstrap/scss/mixins";
 @import "./utils/utilities";
 
+// base
+@import "./base";
+
 // helpers
 @import "./helpers/font";
 
@@ -14,6 +17,7 @@
 
 // components
 @import "./components/index-banner";
+@import "./components/index-category";
 
 // pages
 @import "./pages/index.scss";
