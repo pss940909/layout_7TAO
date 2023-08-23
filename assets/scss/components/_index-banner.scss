@@ -1,0 +1,22 @@
+.index-banner {
+  height: 350px;
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/event/13.jpg?raw=true");
+  background-position: center center;
+  background-size: cover;
+  h2 {
+    font-size: 32px !important;
+  }
+
+  @media screen and (min-width: 576px) {
+    height: 518px;
+    h2 {
+      font-size: 60px !important;
+    }
+
+    p {
+      max-width: 856px; // 832px 加上旁邊留白的24px
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
