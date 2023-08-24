@@ -1,0 +1,22 @@
+.follow-us {
+  .card-header {
+    font-size: 24px;
+  }
+  .social-media {
+    span {
+      width: 32px;
+      height: 32px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .card-header {
+      font-size: 32px;
+    }
+    .card-body {
+      a {
+        font-size: 20px;
+      }
+    }
+  }
+}
