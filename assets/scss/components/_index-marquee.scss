@@ -1,0 +1,43 @@
+.marquee-left {
+  p {
+    //  display: inline-flex;
+    white-space: nowrap;
+    animation: marquee-left 5s linear infinite;
+  }
+  @media screen and (min-width: 768px) {
+    p {
+      font-size: 32px;
+    }
+  }
+}
+
+.marquee-right {
+  p {
+    //  display: inline-flex;
+    white-space: nowrap;
+    animation: marquee-right 5s linear infinite;
+  }
+  @media screen and (min-width: 768px) {
+    p {
+      font-size: 32px;
+    }
+  }
+}
+
+@keyframes marquee-left {
+  0% {
+    transform: translate(-50%);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+@keyframes marquee-right {
+  0% {
+    transform: translate(0%);
+  }
+  100% {
+    transform: translate(-50%);
+  }
+}
