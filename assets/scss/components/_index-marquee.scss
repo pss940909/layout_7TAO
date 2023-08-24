@@ -1,6 +1,5 @@
 .marquee-left {
   p {
-    //  display: inline-flex;
     white-space: nowrap;
     animation: marquee-left 5s linear infinite;
   }
@@ -13,7 +12,6 @@
 
 .marquee-right {
   p {
-    //  display: inline-flex;
     white-space: nowrap;
     animation: marquee-right 5s linear infinite;
   }

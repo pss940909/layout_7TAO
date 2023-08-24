@@ -32,26 +32,17 @@
         <%- include('./components/index-online'); -%>
       </div>
       <!-- marquee left-->
-      <div class="marquee-left bg-dark py-4 py-md-6 overflow-hidden d-flex">
-        <p class="text-secondary text-nowrap  fw-bold noto-serif-tc">
-          活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・
-        </p>
-        <p class="text-secondary text-nowrap  fw-bold noto-serif-tc">
-          活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS
-        </p>
+      <div class="mb-12 mb-md-15">
+        <%- include('./components/marquee-left'); -%>
+      </div>
+      <!-- albums -->
+      <div class="mb-12 mb-lg-15">
+        <%- include('./components/index-albums'); -%>
       </div>
 
       <!-- marquee right-->
-      <div class="marquee-right bg-dark py-4 py-md-6 overflow-hidden d-flex">
-        <p class="text-secondary fw-bold noto-serif-tc">
-          活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・
-        </p>
-        <p class="text-secondary fw-bold noto-serif-tc">
-          活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS
-        </p>
-      </div>
+      <div><%- include('./components/marquee-right'); -%></div>
     </div>
-    <%- include('./layout/footer'); -%>
 
     <script type="module" src="../main.js"></script>
   </body>
