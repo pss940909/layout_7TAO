@@ -16,6 +16,7 @@
 @import "./layout/header.scss";
 
 // components
+// index --------------------
 @import "./components/index-banner";
 @import "./components/index-category";
 @import "./components/index-recent";
@@ -23,6 +24,8 @@
 @import "./components/index-marquee";
 @import "./components/index-albums";
 @import "./components/index-follow-us";
+// events -----------------------
+@import "./components/events-top";
 
 // pages
 @import "./pages/index.scss";
