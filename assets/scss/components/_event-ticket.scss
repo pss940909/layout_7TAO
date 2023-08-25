@@ -1,0 +1,12 @@
+.event-ticket {
+  @media screen and (min-width: 992px) {
+    .ticket {
+      th {
+        width: 30% !important;
+      }
+      th:last-child {
+        width: 10% !important;
+      }
+    }
+  }
+}
