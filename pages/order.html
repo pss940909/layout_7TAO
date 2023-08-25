@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@400;700&family=Yeseva+One&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icofont -->
+    <link rel="stylesheet" href="../assets/icofont/icofont.min.css" />
+    <title>index</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <div
+            class="steps d-flex w-100 border-top border-primary mt-15 position-relative"
+          >
+            <div
+              class="step step-1 bg-primary d-flex justify-content-center align-items-center text-secondary"
+            >
+              1
+            </div>
+            <div
+              class="step step-2 bg-primary d-flex justify-content-center align-items-center text-secondary"
+            >
+              2
+            </div>
+            <div
+              class="step step-3 bg-primary d-flex justify-content-center align-items-center text-secondary"
+            >
+              3
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

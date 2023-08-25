@@ -1,0 +1,13 @@
+.steps {
+  .step {
+    width: 32px;
+    height: 32px;
+  }
+
+  @media screen and (min-width: 992px) {
+    .step {
+      width: 48px;
+      height: 48px;
+    }
+  }
+}
