@@ -10,6 +10,9 @@
   }
 
   @media screen and (min-width: 768px) {
+    .subscribe {
+      border-left: 0 !important;
+    }
     .card-header {
       font-size: 32px;
     }
