@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@400;700&family=Yeseva+One&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icofont -->
+    <link rel="stylesheet" href="../assets/icofont/icofont.min.css" />
+    <title>index</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+    <div class="container">
+      <!-- event-banner -->
+      <div class="mb-6"><%- include('./components/event-banner'); -%></div>
+      <!-- event-info -->
+      <div class="event-info"></div>
+    </div>
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
