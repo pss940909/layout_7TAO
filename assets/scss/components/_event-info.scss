@@ -1,0 +1,18 @@
+.event-info {
+  h2 {
+    font-size: 32px;
+  }
+
+  .event-intro {
+    background-color: #ebeae8 !important;
+  }
+
+  @media screen and (min-width: 992px) {
+    h2 {
+      font-size: 60px;
+    }
+    .event-slogan {
+      font-size: 22px;
+    }
+  }
+}
