@@ -18,26 +18,122 @@
   <body>
     <%- include('./layout/header'); -%>
     <div class="container">
-      <div class="row">
-        <div class="col-12 col-lg-6">
+      <div class="row justify-content-center">
+        <!-- 步驟條 -->
+        <div class="col-10 col-lg-6">
           <div
             class="steps d-flex w-100 border-top border-primary mt-15 position-relative"
           >
             <div
-              class="step step-1 bg-primary d-flex justify-content-center align-items-center text-secondary"
+              class="step step-1 bg-primary d-flex justify-content-center align-items-center text-secondary border border-primary position-absolute top-0 start-0 translate-middle"
             >
               1
             </div>
+            <span
+              class="fw-bold noto-serif-tc position-absolute top-0 start-0 translate-middle mt-10"
+              >訂單確認</span
+            >
             <div
-              class="step step-2 bg-primary d-flex justify-content-center align-items-center text-secondary"
+              class="step step-2 d-flex justify-content-center align-items-center border border-dark position-absolute top-0 start-50 translate-middle bg-primary-dark"
             >
               2
             </div>
+            <span
+              class="fw-bold noto-serif-tc position-absolute top-0 start-50 translate-middle mt-10"
+              >結帳付款</span
+            >
             <div
-              class="step step-3 bg-primary d-flex justify-content-center align-items-center text-secondary"
+              class="step step-3 d-flex justify-content-center align-items-center border border-dark position-absolute top-0 start-100 translate-middle bg-primary-dark"
             >
               3
             </div>
+            <span
+              class="fw-bold noto-serif-tc position-absolute top-0 start-100 translate-middle mt-10 text-nowrap"
+              >訂購結果</span
+            >
+          </div>
+        </div>
+      </div>
+      <!-- 訂單內容 -->
+      <h2
+        class="fw-bold noto-serif-tc text-lg-center mt-68 mt-lg-104 fs-32 fs-lg-48 mb-4"
+      >
+        返老還童-制服聯誼
+      </h2>
+      <!-- <div class="d-flex justify-content-center">
+        <span
+          class="py-2 px-3 bg-primary text-secondary text-center mb-6 mb-lg-8"
+        >
+          您的訂單已保留，請在2023/5/30 04:32
+          前完成繳費。若逾期未繳款，系統將取消您的訂單。
+        </span>
+      </div> -->
+      <div class="row justify-content-center mb-12 mb-lg-15">
+        <div class="col-12 col-lg-6">
+          <table class="table w-100 mb-8 mb-lg-12">
+            <tbody>
+              <tr class="border-top border-2 border-primary">
+                <th scope="row" class="fw-bold noto-serif-tc">日期</th>
+                <td class="text-end">2023/5/12</td>
+              </tr>
+              <tr class="border-bottom border-primary">
+                <th scope="row" class="fw-bold noto-serif-tc">票種</th>
+
+                <td class="text-end">改頭換面票（含大改造）</td>
+              </tr>
+              <tr class="border-bottom border-primary">
+                <th scope="row" class="fw-bold noto-serif-tc">票價</th>
+                <td class="text-end">$8000</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <img
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/sparkler.png?raw=true"
+            alt="sparkler"
+            class="sparkler ms-auto me-auto d-block mb-4"
+          />
+          <h3 class="noto-serif-tc fw-bold fs-4 text-center mb-4">
+            聯絡人資料
+          </h3>
+          <!-- 聯絡人表單 -->
+          <div>
+            <div class="mb-4">
+              <label for="userName" class="form-label">聯絡人姓名</label>
+              <input
+                type="text"
+                class="form-control border-2 border-primary"
+                id="userName"
+                placeholder="請輸入聯絡人名稱"
+              />
+            </div>
+            <div class="mb-4">
+              <label for="userEmail" class="form-label">Email</label>
+              <input
+                type="text"
+                class="form-control border-2 border-primary"
+                id="userEmail"
+                placeholder="請輸入Email"
+              />
+            </div>
+            <div class="mb-6 mb-lg-8">
+              <label for="userPhone" class="form-label">手機</label>
+              <input
+                type="text"
+                class="form-control border-2 border-primary"
+                id="userPhone"
+                placeholder="請輸入手機號碼"
+              />
+            </div>
+            <div class="row justify-content-center mb-4">
+              <div class="col-12 col-lg-8">
+                <a
+                  class="d-flex btn btn-primary justify-content-center align-items-center fs-5 py-2"
+                  >確認表單資料<i class="icofont-rounded-double-right"></i
+                ></a>
+              </div>
+            </div>
+            <p class="text-center text-dark-gray">取消購票</p>
           </div>
         </div>
       </div>
