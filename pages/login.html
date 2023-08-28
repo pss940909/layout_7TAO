@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@400;700&family=Yeseva+One&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icofont -->
+    <link rel="stylesheet" href="../assets/icofont/icofont.min.css" />
+    <title>會員登入</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+    <div class="container">
+      <img
+        src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/sparkler.png?raw=true"
+        alt="sparkler"
+        class="sparkler ms-auto me-auto d-block mb-4 mt-6 mt-lg-15"
+      />
+      <h3 class="noto-serif-tc fw-bold fs-4 text-center mb-4">會員登入</h3>
+      <!-- 聯絡人表單 -->
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-4">
+          <div>
+            <div class="mb-4">
+              <label for="userName" class="form-label mb-2">帳號</label>
+              <input
+                type="text"
+                class="form-control border-2 border-primary"
+                id="userName"
+                placeholder="請輸入帳號"
+              />
+            </div>
+            <div class="mb-6 mb-lg-8">
+              <label for="userEmail" class="form-label mb-2">密碼</label>
+              <input
+                type="password"
+                class="form-control border-2 border-primary"
+                id="userEmail"
+                placeholder="請輸入密碼"
+              />
+            </div>
+            <a
+              class="d-flex btn btn-primary justify-content-center align-items-center fs-5 py-2 noto-sans-tc fw-bold mb-264 mb-md-175"
+              >登入<i class="icofont-rounded-double-right ms-1"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
