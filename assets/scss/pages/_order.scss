@@ -16,11 +16,15 @@
 }
 
 @media screen and (min-width: 992px) {
-  .mt-md-104 {
-    margin-top: 104px;
+  .mt-lg-104 {
+    margin-top: 104px !important;
   }
 
-  .fs-md-48 {
+  .fs-lg-48 {
     font-size: 48px !important;
+  }
+
+  .steps.mt-lg-84 {
+    margin-top: 84px !important;
   }
 }

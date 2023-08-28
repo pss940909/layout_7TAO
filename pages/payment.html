@@ -19,29 +19,35 @@
     <%- include('./layout/header'); -%>
     <div class="container">
       <!-- 步驟條 -->
-      <%- include('./components/order-steps'); -%>
+      <%- include('./components/payment-steps'); -%>
       <!-- 訂單內容 -->
       <h2
         class="fw-bold noto-serif-tc text-lg-center mt-68 mt-lg-104 fs-32 fs-lg-48 mb-4"
       >
         返老還童-制服聯誼
       </h2>
+      <div class="d-flex justify-content-center">
+        <span
+          class="py-2 px-2 px-lg-3 bg-primary text-secondary text-center mb-6 mb-lg-8"
+        >
+          您的訂單已保留，請在2023/5/30 04:32
+          前完成繳費。若逾期未繳款，系統將取消您的訂單。
+        </span>
+      </div>
       <div class="row justify-content-center mb-12 mb-lg-15">
         <div class="col-12 col-lg-6">
           <table class="table w-100 mb-8 mb-lg-12">
             <tbody>
               <tr class="border-top border-2 border-primary">
-                <th scope="row" class="fw-bold noto-serif-tc">日期</th>
-                <td class="text-end noto-sans-tc">2023/5/12</td>
+                <th scope="row" class="fw-bold noto-serif-tc">訂單編號</th>
+                <td class="text-end noto-sans-tc">892746123</td>
               </tr>
               <tr class="border-bottom border-primary">
-                <th scope="row" class="fw-bold noto-serif-tc">票種</th>
+                <th scope="row" class="fw-bold noto-serif-tc">票券</th>
 
-                <td class="text-end">改頭換面票（含大改造）</td>
-              </tr>
-              <tr class="border-bottom border-primary">
-                <th scope="row" class="fw-bold noto-serif-tc">票價</th>
-                <td class="text-end noto-sans-tc">$8000</td>
+                <td class="text-end noto-sans-tc">
+                  改頭換面票（含大改造）$8000
+                </td>
               </tr>
             </tbody>
           </table>
@@ -51,47 +57,60 @@
             alt="sparkler"
             class="sparkler ms-auto me-auto d-block mb-4"
           />
-          <h3 class="noto-serif-tc fw-bold fs-4 text-center mb-4">
-            聯絡人資料
-          </h3>
+          <h3 class="noto-serif-tc fw-bold fs-4 text-center mb-4">結帳資訊</h3>
           <!-- 聯絡人表單 -->
           <div>
             <div class="mb-4">
-              <label for="userName" class="form-label mb-2">聯絡人姓名</label>
+              <label for="userName" class="form-label mb-2">取票資訊</label>
               <input
                 type="text"
-                class="form-control border-2 border-primary"
+                class="form-control border-2 border-primary mb-1"
                 id="userName"
-                placeholder="請輸入聯絡人名稱"
+                placeholder="請輸入身分證字號或護照號碼"
               />
-            </div>
-            <div class="mb-4">
-              <label for="userEmail" class="form-label mb-2">Email</label>
-              <input
-                type="text"
-                class="form-control border-2 border-primary"
-                id="userEmail"
-                placeholder="請輸入Email"
-              />
+              <p>
+                請輸入您的
+                <span class="text-danger">身分證字號</span>
+                供取票使用，外籍人士請輸入
+                <span class="text-danger">護照號碼</span>
+              </p>
             </div>
             <div class="mb-6 mb-lg-8">
-              <label for="userPhone" class="form-label mb-2">手機</label>
-              <input
-                type="text"
-                class="form-control border-2 border-primary"
-                id="userPhone"
-                placeholder="請輸入手機號碼"
-              />
+              <p class="mb-2">付款方式</p>
+              <div class="form-check mb-2">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="payment_method"
+                  id="credit_card"
+                />
+                <label class="form-check-label noto-sans-tc" for="credit_card">
+                  信用卡
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="payment_method"
+                  id="atm"
+                  checked
+                />
+                <label class="form-check-label noto-sans-tc" for="atm">
+                  ATM虛擬帳號
+                </label>
+              </div>
             </div>
             <div class="row justify-content-center mb-4">
               <div class="col-12 col-lg-8">
                 <a
                   class="d-flex btn btn-primary justify-content-center align-items-center fs-5 py-2 noto-sans-tc"
-                  >確認表單資料<i class="icofont-rounded-double-right"></i
+                  >確認訂單並繳費 $8000<i
+                    class="icofont-rounded-double-right"
+                  ></i
                 ></a>
               </div>
             </div>
-            <p class="text-center text-dark-gray">取消購票</p>
           </div>
         </div>
       </div>
