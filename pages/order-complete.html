@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@400;700&family=Yeseva+One&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icofont -->
+    <link rel="stylesheet" href="../assets/icofont/icofont.min.css" />
+    <title>index</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+    <div class="container">
+      <!-- 步驟條 -->
+      <%- include('./components/complete-steps'); -%>
+      <!-- 訂單內容 -->
+      <i
+        class="d-block icofont-check-circled text-center fs-32 fs-lg-48 mt-76 mt-lg-104 mb-4 mb-lg-2"
+      ></i>
+      <h2 class="text-center noto-serif-tc fw-bold fs-24 fs-lg-32 mb-8">
+        訂購成功
+      </h2>
+      <div class="row justify-content-center mb-12 mb-lg-15">
+        <div class="col-12 col-lg-6">
+          <table class="table w-100 mb-4">
+            <tbody>
+              <tr class="border-top border-2 border-primary">
+                <th scope="row" class="fw-bold noto-serif-tc">訂單編號</th>
+                <td class="text-end noto-sans-tc">892746123</td>
+              </tr>
+              <tr class="border-top border-2 border-primary">
+                <th scope="row" class="fw-bold noto-serif-tc">訂購時間</th>
+                <td class="text-end noto-sans-tc">2023/04/28 14:30</td>
+              </tr>
+              <tr class="border-bottom border-primary">
+                <th scope="row" class="fw-bold noto-serif-tc">票券</th>
+
+                <td class="text-end noto-sans-tc">
+                  改頭換面票（含大改造）$8000
+                </td>
+              </tr>
+              <tr class="border-bottom border-primary">
+                <th scope="row" class="fw-bold noto-serif-tc">取票序號</th>
+
+                <td class="text-end noto-sans-tc text-danger fw-bold">
+                  95G54J4434
+                </td>
+              </tr>
+              <tr class="border-bottom border-primary">
+                <th scope="row" class="fw-bold noto-serif-tc">取票號碼</th>
+
+                <td class="text-end noto-sans-tc text-danger fw-bold">
+                  04597101
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p class="text-dark-gray noto-sans-tc">
+            請至 7-Eleven 完成取票，請於 ibon
+            點選【購票/取票/訂房】>【售票系統】>【取票】>【拓元售票系統】。
+            <br />
+            若您未前往取票，本筆交易仍視為完成，不可取消訂單。
+            <br />
+            若需退票，請按照退票辦法進行申請。
+          </p>
+        </div>
+      </div>
+    </div>
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

@@ -2,6 +2,14 @@
   margin-top: 68px;
 }
 
+.mt-76 {
+  margin-top: 76px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
 .fs-32 {
   font-size: 32px;
 }
@@ -12,12 +20,16 @@
 }
 
 .text-dark-gray {
-  color: #474747;
+  color: #474747 !important;
 }
 
 @media screen and (min-width: 992px) {
   .mt-lg-104 {
     margin-top: 104px !important;
+  }
+
+  .fs-lg-32 {
+    font-size: 32px !important;
   }
 
   .fs-lg-48 {
