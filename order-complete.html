@@ -94,23 +94,23 @@
       <div
         class="step step-1 bg-primary d-flex justify-content-center align-items-center text-secondary border border-primary position-absolute top-0 start-0 translate-middle"
       >
-        1
+        <i class="icofont-verification-check"></i>
       </div>
       <span
         class="fw-bold noto-serif-tc position-absolute top-0 start-0 translate-middle mt-10"
         >訂單確認</span
       >
       <div
-        class="step step-2 d-flex justify-content-center align-items-center border border-dark position-absolute top-0 start-50 translate-middle bg-primary-dark"
+        class="step step-2 d-flex justify-content-center align-items-center border border-dark position-absolute top-0 start-50 translate-middle bg-primary text-secondary"
       >
-        2
+        <i class="icofont-verification-check"></i>
       </div>
       <span
         class="fw-bold noto-serif-tc position-absolute top-0 start-50 translate-middle mt-10"
         >結帳付款</span
       >
       <div
-        class="step step-3 d-flex justify-content-center align-items-center border border-dark position-absolute top-0 start-100 translate-middle bg-primary-dark"
+        class="step step-3 d-flex justify-content-center align-items-center border border-dark position-absolute top-0 start-100 translate-middle bg-primary text-secondary"
       >
         3
       </div>
@@ -122,78 +122,56 @@
   </div>
 </div>
       <!-- 訂單內容 -->
-      <h2
-        class="fw-bold noto-serif-tc text-lg-center mt-68 mt-lg-104 fs-32 fs-lg-48 mb-4"
-      >
-        返老還童-制服聯誼
+      <i
+        class="d-block icofont-check-circled text-center fs-32 fs-lg-48 mt-76 mt-lg-104 mb-4 mb-lg-2"
+      ></i>
+      <h2 class="text-center noto-serif-tc fw-bold fs-24 fs-lg-32 mb-8">
+        訂購成功
       </h2>
       <div class="row justify-content-center mb-12 mb-lg-15">
         <div class="col-12 col-lg-6">
-          <table class="table w-100 mb-8 mb-lg-12">
+          <table class="table w-100 mb-4">
             <tbody>
               <tr class="border-top border-2 border-primary">
-                <th scope="row" class="fw-bold noto-serif-tc">日期</th>
-                <td class="text-end noto-sans-tc">2023/5/12</td>
+                <th scope="row" class="fw-bold noto-serif-tc">訂單編號</th>
+                <td class="text-end noto-sans-tc">892746123</td>
+              </tr>
+              <tr class="border-top border-2 border-primary">
+                <th scope="row" class="fw-bold noto-serif-tc">訂購時間</th>
+                <td class="text-end noto-sans-tc">2023/04/28 14:30</td>
               </tr>
               <tr class="border-bottom border-primary">
-                <th scope="row" class="fw-bold noto-serif-tc">票種</th>
+                <th scope="row" class="fw-bold noto-serif-tc">票券</th>
 
-                <td class="text-end">改頭換面票（含大改造）</td>
+                <td class="text-end noto-sans-tc">
+                  改頭換面票（含大改造）$8000
+                </td>
               </tr>
               <tr class="border-bottom border-primary">
-                <th scope="row" class="fw-bold noto-serif-tc">票價</th>
-                <td class="text-end noto-sans-tc">$8000</td>
+                <th scope="row" class="fw-bold noto-serif-tc">取票序號</th>
+
+                <td class="text-end noto-sans-tc text-danger fw-bold">
+                  95G54J4434
+                </td>
+              </tr>
+              <tr class="border-bottom border-primary">
+                <th scope="row" class="fw-bold noto-serif-tc">取票號碼</th>
+
+                <td class="text-end noto-sans-tc text-danger fw-bold">
+                  04597101
+                </td>
               </tr>
             </tbody>
           </table>
 
-          <img
-            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/sparkler.png?raw=true"
-            alt="sparkler"
-            class="sparkler ms-auto me-auto d-block mb-4"
-          />
-          <h3 class="noto-serif-tc fw-bold fs-4 text-center mb-4">
-            聯絡人資料
-          </h3>
-          <!-- 聯絡人表單 -->
-          <div>
-            <div class="mb-4">
-              <label for="userName" class="form-label mb-2">聯絡人姓名</label>
-              <input
-                type="text"
-                class="form-control border-2 border-primary"
-                id="userName"
-                placeholder="請輸入聯絡人名稱"
-              />
-            </div>
-            <div class="mb-4">
-              <label for="userEmail" class="form-label mb-2">Email</label>
-              <input
-                type="text"
-                class="form-control border-2 border-primary"
-                id="userEmail"
-                placeholder="請輸入Email"
-              />
-            </div>
-            <div class="mb-6 mb-lg-8">
-              <label for="userPhone" class="form-label mb-2">手機</label>
-              <input
-                type="text"
-                class="form-control border-2 border-primary"
-                id="userPhone"
-                placeholder="請輸入手機號碼"
-              />
-            </div>
-            <div class="row justify-content-center mb-4">
-              <div class="col-12 col-lg-8">
-                <a
-                  class="d-flex btn btn-primary justify-content-center align-items-center fs-5 py-2 noto-sans-tc fw-bold"
-                  >確認表單資料<i class="icofont-rounded-double-rightms-1"></i
-                ></a>
-              </div>
-            </div>
-            <p class="text-center text-dark-gray">取消購票</p>
-          </div>
+          <p class="text-dark-gray noto-sans-tc">
+            請至 7-Eleven 完成取票，請於 ibon
+            點選【購票/取票/訂房】>【售票系統】>【取票】>【拓元售票系統】。
+            <br />
+            若您未前往取票，本筆交易仍視為完成，不可取消訂單。
+            <br />
+            若需退票，請按照退票辦法進行申請。
+          </p>
         </div>
       </div>
     </div>
