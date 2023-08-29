@@ -10,9 +10,14 @@
   .input-group {
     width: 207px;
   }
-
+  // 折疊選單
   .navbar-toggler {
     border-radius: 4px;
+  }
+  // 右側選單
+  .nav-link:hover {
+    color: #9c9e18 !important;
+    transition: all 0.3s;
   }
 
   @media screen and (min-width: 768px) {
