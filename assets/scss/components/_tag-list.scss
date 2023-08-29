@@ -1,0 +1,15 @@
+.tag-list {
+  li {
+    border-left: 4px solid #000 !important;
+  }
+
+  li:hover {
+    background: $primary !important;
+    border-left: 4px solid $secondary !important;
+    transition: all 0.3s;
+    a {
+      color: #fff !important;
+      transition: all 0.3s;
+    }
+  }
+}

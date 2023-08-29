@@ -1,0 +1,10 @@
+.title {
+  @media screen and (min-width: 992px) {
+    .fs-lg-64 {
+      font-size: 64px !important;
+    }
+    .fs-lg-32 {
+      font-size: 32px !important;
+    }
+  }
+}

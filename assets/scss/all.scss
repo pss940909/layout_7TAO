@@ -16,21 +16,26 @@
 @import "./layout/header.scss";
 
 // components
+@import "./components/tag-list";
+@import "./components/event-item";
+@import "./components/title";
+@import "./components/btn-hover";
+
+// section
 // index --------------------
-@import "./components/index-banner";
-@import "./components/index-category";
-@import "./components/index-recent";
-@import "./components/index-online";
-@import "./components/index-marquee";
-@import "./components/index-albums";
-@import "./components/index-follow-us";
+@import "./section/index-banner";
+@import "./section/index-category";
+@import "./section/index-online";
+@import "./section/index-marquee";
+@import "./section/index-albums";
+@import "./section/index-follow-us";
 
 // event
-@import "./components/event-banner";
-@import "./components/event-info";
-@import "./components/event-ticket";
+@import "./section/event-banner";
+@import "./section/event-info";
+@import "./section/event-ticket";
 // order
-@import "./components/order-steps";
+@import "./section/order-steps";
 
 // pages
 @import "./pages/index";
